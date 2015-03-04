@@ -1,0 +1,68 @@
+body{
+	background: url(../images/pattern.jpg) repeat;
+	padding-top: 25px;
+}
+
+footer { 
+	min-height: 300px;
+	
+}
+
+.noto { 
+
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.noto-serif { 
+	font-family: 'Noto Serif', serif;
+}
+
+.gutter-bottom-20 { 
+	padding-bottom: 20px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.big {
+	font-size: 1.3em;
+
+}
+
+.bigger {
+	font-size: 1.5em;
+}
+.biggerrr{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.huge { 
+	font-size: 1.7em;
+	font-weight: 700;}
+
+	#logo {
+		width: 250px;
+
+	}
+
+	#main-menu { 
+		padding-top: 50px;
+	}
+
+	#main-menu li {
+		cursor: pointer; cursor: hand;  
+	}
+	#main-menu li:before { 
+		content: " | "
+	}
+
+	#main-menu  li:first-child:before {
+		content: '';
+	}
+
