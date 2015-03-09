@@ -124,6 +124,7 @@ $(document).ready(function() {
         $("li#language-switcher").html("<a href='#'>En</a>");
         $("#language-switcher").attr("current-language", "AR");
         $('link[title=bootstrap-rtl]')[0].disabled=false;
+        $("logo").css("background-url", "../images/logo-ar.png");
         $(".content-en").hide();
         $(".content-ar").show(); 
         $('ul.nav').removeClass("navbar-right");
@@ -136,6 +137,7 @@ $(document).ready(function() {
         $("li#language-switcher").html("<a href='#'>العربية</a>");
         $("#language-switcher").attr("current-language", "EN");
         $('link[title=bootstrap-rtl]')[0].disabled=true;
+         $("logo").css("background-url", "../images/logo-en.png");
         $(".content-en").show();
         $(".content-ar").hide(); 
         $('ul.nav').removeClass("navbar-left");
