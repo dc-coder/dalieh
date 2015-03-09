@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
-p.content-en, h3.content-en , .data_wrap , li.content-en , ul.content-en {
+p.content-en, h3.content-en , h2.content-en ,  .data_wrap , li.content-en , ul.content-en {
 	text-align: left;
 	 direction: ltr;
 } 
