@@ -99,21 +99,21 @@ $(document).ready(function() {
 
 
     /*****google map*****/
-    var map;
-    map = new GMaps({
-      el: '#map',
-      lat: 33.886769, 
-      lng: 35.471635,
-      zoomControl : true,
-      zoomControlOpt: {
-        style : 'SMALL',
-        position: 'TOP_LEFT'
-      },
-      panControl : true,
-      streetViewControl : false,
-      mapTypeControl: true,
-      overviewMapControl: false
-    });
+    // var map;
+    // map = new GMaps({
+    //   el: '#map',
+    //   lat: 33.886769, 
+    //   lng: 35.471635,
+    //   zoomControl : true,
+    //   zoomControlOpt: {
+    //     style : 'SMALL',
+    //     position: 'TOP_LEFT'
+    //   },
+    //   panControl : true,
+    //   streetViewControl : false,
+    //   mapTypeControl: true,
+    //   overviewMapControl: false
+    // });
 
 
 

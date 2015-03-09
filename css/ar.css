@@ -1,14 +1,17 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
-p.content-en {
+p.content-en, h3.content-en , .data_wrap , li.content-en , ul.content-en {
 	text-align: left;
+	 direction: ltr;
 } 
+
 
 .content-ar {
 	display: none;
 	font-family: 'Droid Arabic Naskh', serif;
 	letter-spacing: 0px;
 	font-size: 1.2vw;
+	direction: rtl;
 }
 
 small.content-ar {
