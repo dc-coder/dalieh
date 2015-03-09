@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
+.content-en, p.content-en {
+	text-align: left;
+} 
 
 .content-ar {
 	display: none;
