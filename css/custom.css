@@ -1386,9 +1386,7 @@ text-transform: uppercase;
 .blog_title a {
 color: #6C6C6C;
 }
-blockquote {
-border-left: 5px solid #2c2c2c;
-}
+
 blockquote.pull-right {
 border-right: 5px solid #2c2c2c;
 }
@@ -2034,4 +2032,13 @@ content: "\e044";
 
 div.container.coalitionSection ul {
 	padding-left: 0px;
+}
+
+.quote-en {
+	font-size: 2vw;
+	margin-top: 30px;
+}
+
+blockquote {
+	border-left: 0px;
 }
