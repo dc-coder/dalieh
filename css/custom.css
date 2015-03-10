@@ -2042,3 +2042,26 @@ div.container.coalitionSection ul {
 blockquote {
 	border-left: 0px;
 }
+
+.cbp_tmtimeline {
+	width: 75%;
+}
+
+ul.my-list {
+	padding-top: 20px;
+}
+ul.my-list li { 
+	padding-left: 20px;
+	position: relative;
+}
+
+ul.my-list li:before { 
+	content: "- ";
+	text-align:left;
+    width:15px;
+    position: absolute;
+    left: 0px
+
+}
+
+ 
