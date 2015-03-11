@@ -1,10 +1,13 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
-p.content-en, h3.content-en , h2.content-en ,  .data_wrap , li.content-en , ul.content-en {
+p.content-en, h3.content-en ,  h2.content-en , table.content-en,  .data_wrap , li.content-en , ul.content-en , blockquote.content-en{
 	text-align: left;
 	 direction: ltr;
 } 
 
+ h4.content-en {
+ 	direction: ltr;
+ }
 
 .content-ar {
 	display: none;
