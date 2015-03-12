@@ -46,10 +46,10 @@ $(document).ready(function() {
 	$('link[title=bootstrap-rtl]')[0].disabled=true;
   $('.content-ar').hide();
   /*******Nice Scroll******/	  
-		$("html").niceScroll();  // The document page (body)
-		$(".scroller").getNiceScroll().resize()
+		// $("html").niceScroll();  // The document page (body)
+		// $(".scroller").getNiceScroll().resize()
 
-    <!--flexs lider--> 	
+   
     $('.flexslider').flexslider({
       animation: "fade",
       start: function(slider){

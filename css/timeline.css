@@ -62,7 +62,7 @@
 	color: #fff;
 	padding: 2em;
 	position: relative;
-	border-radius: 5px;
+	font-size: 1.1vw;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
@@ -98,13 +98,11 @@
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'ecoico';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	font-size: 1.4em;
 	line-height: 40px;
 	-webkit-font-smoothing: antialiased;
 	position: absolute;

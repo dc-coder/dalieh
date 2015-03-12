@@ -2069,4 +2069,27 @@ ul.my-list li:before {
 	font-weight: bolder;
 	margin-bottom: 0px;
 }
+
+#bg-1 {
+	background: url('../images/oldmap.jpg') no-repeat  center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	min-height: 400px;
+}
+
+#bg-2 {
+	background: url('../images/competition.jpg') no-repeat center  fixed; 
+    -webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: contain;
+  	min-height: 400px;
+}
+
+#bg-1 h2 {
+	margin-top: 100px;
+	color: #fff;
+}
  
