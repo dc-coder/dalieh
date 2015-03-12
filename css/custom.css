@@ -121,11 +121,39 @@ padding: 0;
 text-indent: -9999px;
 width: 109px;
 }
-@media (min-width: 320px) and (max-width: 769px) {
+
+ 
+
+
+@media (min-width: 320px) and (max-width: 992px) {
 .logo {
 margin: 14px 15px 11px 15px !important;
 }
+.flex-caption {
+		display: none;
+	}
+.flex-caption-mobile{
+		display: visible;
+		background-color: #000;
+		opacity: 0.8;
+		color: #fff;
+		padding: 10px;
+		font-size: 1em;
+		font-family: ostrich_sansmedium;
+		letter-spacing: 2px;
+		font-weight:bold;
+	}
+
+
 }
+
+@media (min-width: 992px) and (max-width: 1500px) {
+	.flex-caption-mobile {
+	display: none;
+}
+}
+
+ 
 /**bootstrap over style for menu**/
 .navbar-default {
 background-color: #fff;
