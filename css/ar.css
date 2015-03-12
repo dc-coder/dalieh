@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
-div.flex-caption.content-en, p.content-en, h3.content-en ,address.content-en, h2.content-en , table.content-en, ul.cbp_tmtimeline.content-en,  .data_wrap , li.content-en , ul.content-en , blockquote.content-en{
+div.flex-caption.content-en, .flex-caption-mobile.content-en, p.content-en, h3.content-en ,address.content-en, h2.content-en , table.content-en, ul.cbp_tmtimeline.content-en,  .data_wrap , li.content-en , ul.content-en , blockquote.content-en{
 	text-align: left;
 	 direction: ltr;
 } 
