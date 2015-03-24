@@ -116,17 +116,21 @@
 
    <script type="text/javascript" src="js/counter.js"></script>
    <script type="text/javascript">
-   $('#counter').countdown('2015/03/25', function(event) {
+   $('#counter').countdown('2015/03/26', function(event) {
      $(this).html(event.strftime('New site will launch in %H:%M:%S'));
    });
 
 
-   $("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
+
 
 
    </script>
 
    <script type="text/javascript">
+
+   $( document ).ready(function() {
+     $("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
+    });
 
    $( window ).resize(function() {
      $("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
