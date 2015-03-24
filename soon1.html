@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Title Page</title>
+	<title>Civil Campaign to Protect Dalieh</title>
 
 	<!-- Bootstrap CSS -->
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 				
 				font-family: "ostrich_sansmedium";
 				font-weight: bold;
-				 
+
 			}
 
 			.social {
@@ -44,79 +44,90 @@
 
 			nav { 
 				font-size: 20px;}
-			</style>
-		</head>
-		<body>
 
- <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-               
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Competition Form</a>
-                    </li>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+				#logo {
+					max-width: 250px;
+				}
+				</style>
+			</head>
+			<body>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<img class="img-responsive" src="images/panorama.jpg">
+				<!-- Navigation -->
+				<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+
+								<li>
+									<a href="https://www.facebook.com/dalieh.org">Facebook</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/SaveDalieh">Twitter</a>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
 					</div>
+					<!-- /.container -->
+				</nav>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<img class="img-responsive" src="images/panorama.jpg">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<img id="logo" class="center-block img-responsive" src="images/dalieh_logo.jpg">
+						</div>
+
+						<div  id="counter" class="text-center col-xs-12 col-sm-6 col-md-9 col-lg-9">
+
+						</div>
+					</div>
+
+
+
 				</div>
 
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-						<img id="logo" class="img-responsive" src="images/dalieh_logo.jpg">
-					</div>
+				<!-- jQuery -->
+				<script src="//code.jquery.com/jquery.js"></script>
+				<!-- Bootstrap JavaScript -->
+				<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-					<div  id="counter" class="text-center col-xs-12 col-sm-12 col-md-9 col-lg-9">
-
-					</div>
-				</div>
-
-				 
-
-			</div>
-
-			<!-- jQuery -->
-			<script src="//code.jquery.com/jquery.js"></script>
-			<!-- Bootstrap JavaScript -->
-			<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-			<script type="text/javascript" src="js/counter.js"></script>
-			<script type="text/javascript">
-			$('#counter').countdown('2015/03/26', function(event) {
-				$(this).html(event.strftime('Site will be launched in %D day %H:%M:%S'));
-			});
-
-			$("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
+				<script type="text/javascript" src="js/counter.js"></script>
+				<script type="text/javascript">
+				$('#counter').countdown('2015/03/25', function(event) {
+					$(this).html(event.strftime('New site will launch in %H:%M:%S'));
+				});
 
 
+				$("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
 
-			</script>
 
-		</body>
-		</html>
+				</script>
+
+				<script type="text/javascript">
+
+				$( window ).resize(function() {
+					$("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
+				});
+
+
+				</script>
+
+			</body>
+			</html>
