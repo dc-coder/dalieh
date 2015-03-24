@@ -75,59 +75,65 @@
 								<li>
 									<a href="https://twitter.com/SaveDalieh">Twitter</a>
 								</li>
+
 							</ul>
-						</div>
-						<!-- /.navbar-collapse -->
-					</div>
-					<!-- /.container -->
-				</nav>
 
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<img class="img-responsive" src="images/panorama.jpg">
-						</div>
-					</div>
+              <ul class="nav navbar-nav navbar-right">
+                <li ><a href="mailto:info@dalieh.org"  class="pull-right" >For more info, email info@dalieh.org</a></li>
+             </ul>
 
-					<div class="row">
-						<div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
-							<img id="logo" class="center-block img-responsive" src="images/dalieh_logo.jpg">
-						</div>
+           </div>
+           <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+       </nav>
 
-						<div  id="counter" class="text-center col-xs-12 col-sm-6 col-md-9 col-lg-9">
+       <div class="container">
+         <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <img class="img-responsive" src="images/panorama.jpg">
+         </div>
+       </div>
 
-						</div>
-					</div>
+       <div class="row">
+        <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
+         <img id="logo" class="center-block img-responsive" src="images/dalieh_logo.jpg">
+       </div>
 
+       <div  id="counter" class="text-center col-xs-12 col-sm-6 col-md-9 col-lg-9">
 
-
-				</div>
-
-				<!-- jQuery -->
-				<script src="//code.jquery.com/jquery.js"></script>
-				<!-- Bootstrap JavaScript -->
-				<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-				<script type="text/javascript" src="js/counter.js"></script>
-				<script type="text/javascript">
-				$('#counter').countdown('2015/03/25', function(event) {
-					$(this).html(event.strftime('New site will launch in %H:%M:%S'));
-				});
+       </div>
+     </div>
 
 
-				$("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
+
+   </div>
+
+   <!-- jQuery -->
+   <script src="//code.jquery.com/jquery.js"></script>
+   <!-- Bootstrap JavaScript -->
+   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+   <script type="text/javascript" src="js/counter.js"></script>
+   <script type="text/javascript">
+   $('#counter').countdown('2015/03/25', function(event) {
+     $(this).html(event.strftime('New site will launch in %H:%M:%S'));
+   });
 
 
-				</script>
-
-				<script type="text/javascript">
-
-				$( window ).resize(function() {
-					$("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
-				});
+   $("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
 
 
-				</script>
+   </script>
 
-			</body>
-			</html>
+   <script type="text/javascript">
+
+   $( window ).resize(function() {
+     $("#counter").css({ top:  $('#logo').height()/2 -   $("#counter").height()/2 });
+   });
+
+
+   </script>
+
+ </body>
+ </html>
