@@ -2120,4 +2120,10 @@ ul.my-list li:before {
 	margin-top: 100px;
 	color: #fff;
 }
+
+.mini {
+	padding-left: 10px;
+	padding-right: 15px;
+	font-size: 14px;
+}
  
