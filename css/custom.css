@@ -2134,4 +2134,12 @@ ul.my-list li:before {
 	float: left;
 	padding-right: 20px;
 }
+
+  /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    		.cbp_tmtimeline , table {
+    			width: 70%;
+    		}
+    }
+
  
