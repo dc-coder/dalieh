@@ -2109,12 +2109,12 @@ ul.my-list li:before {
 
  
 #bg-2 {
-	background: url('../images/panorama-3.jpg') no-repeat  center fixed; 
+	background: url('../images/panorama-1.jpg') no-repeat  center fixed; 
     -webkit-background-size: contain;
   	-moz-background-size: contain;
   	-o-background-size: contain;
   	background-size: contain;
-  	min-height: 400px;
+  	min-height: 300px;
 }
 
 
