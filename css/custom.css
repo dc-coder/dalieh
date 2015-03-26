@@ -2107,14 +2107,16 @@ ul.my-list li:before {
   	min-height: 400px;
 }
 
+ 
 #bg-2 {
-	background: url('../images/panorama-2.jpg') no-repeat center  fixed; 
-    -webkit-background-size: contain;
-  	-moz-background-size: contain;
-  	-o-background-size: contain;
-  	background-size: contain;
+	background: url('../images/panorama-3.jpg') no-repeat  center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
   	min-height: 400px;
 }
+
 
 #bg-1 h2 {
 	margin-top: 100px;
@@ -2125,5 +2127,11 @@ ul.my-list li:before {
 	padding-left: 10px;
 	padding-right: 15px;
 	font-size: 14px;
+}
+
+.jury-img {
+	width: 200px;
+	float: left;
+	padding-right: 20px;
 }
  
