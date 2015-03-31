@@ -147,7 +147,7 @@ margin: 14px 15px 11px 15px !important;
 
 }
 
-@media (min-width: 992px) and (max-width: 1500px) {
+@media (min-width: 992px) and (max-width: 2500px) {
 	.flex-caption-mobile {
 	display: none;
 }
