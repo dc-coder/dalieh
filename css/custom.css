@@ -115,11 +115,11 @@ font-size: 90%
 ============================================================= */
 .logo {
 background: url("../images/logo-en.png") no-repeat scroll 0 0 transparent;
-height: 40px;
+height: 50px;
 margin: 14px 15px 11px 2px !important;
 padding: 0;
 text-indent: -9999px;
-width: 109px;
+width: 286px;
 }
 
  
@@ -147,7 +147,7 @@ margin: 14px 15px 11px 15px !important;
 
 }
 
-@media (min-width: 992px) and (max-width: 1500px) {
+@media (min-width: 992px) and (max-width: 2500px) {
 	.flex-caption-mobile {
 	display: none;
 }
@@ -175,7 +175,7 @@ transition: all 0.5s;
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 background: #000;
 color: #FFF;
-margin: 15px 5px;
+margin: 25px 5px;
 padding: 1px 5px 0
 }
 .navbar-default .navbar-nav > li > a {
@@ -183,7 +183,7 @@ color: #000;
 font-size: 0.91em;
 letter-spacing: 0.01em;
 text-transform: uppercase;
-margin:15px 5px;
+margin:25px 5px;
 padding: 1px 5px 0
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
