@@ -17,11 +17,28 @@ div.flex-caption.content-en, .flex-caption-mobile.content-en, p.content-en, h3.c
 	direction: rtl;
 }
 
-small.content-ar {
-	font-size: 1.2vw;
+h1.content-ar {
+	font-size: 2vw;
+}
+
+h1.content-ar small {
+	font-size: 1.5vw;
 	padding-top: 20px;
+}
+
+h3.content-ar small {
+	font-size: 1.2vw;
+	padding-right: 20px;
 }
 
 p.flex-caption.content-ar {
 	right: 5%;
+	font-size: 1.2vw;
 }
+
+p.content-ar img.jury-img {
+	float: right;
+
+}
+
+
