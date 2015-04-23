@@ -29,6 +29,7 @@ h1.content-ar small {
 h3.content-ar small {
 	font-size: 1.2vw;
 	padding-right: 20px;
+	line-height: 25px;
 }
 
 p.flex-caption.content-ar {
@@ -38,7 +39,11 @@ p.flex-caption.content-ar {
 
 p.content-ar img.jury-img {
 	float: right;
+	padding-left: 20px;
+}
 
+li.content-ar .fa-file-archive-o, .fa-file-pdf-o {
+	padding-left: 10px;
 }
 
 
