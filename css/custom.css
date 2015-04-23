@@ -608,7 +608,7 @@ transition: transform 0.2s, opacity 0.3s;
 }
 /* Effect 3a */
 .hi-icon-effect-3a .hi-icon {
-color: #fff;
+color: #000;
 }
 .no-touch .hi-icon-effect-3a .hi-icon:hover {
 color: #000;
