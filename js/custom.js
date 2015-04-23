@@ -45,12 +45,20 @@ $(function(){
 $(document).ready(function() {
 	$('link[title=bootstrap-rtl]')[0].disabled=true;
   $('.content-ar').hide();
+  
+
+  if ( localStorage.getItem("current-language") == "AR") {
+    language_switcher_ar();
+  }
+  else {
+    language_switcher_en();
+  }
 
   /*******Nice Scroll******/	  
 		// $("html").niceScroll();  // The document page (body)
 		// $(".scroller").getNiceScroll().resize()
 
-   
+
     $('.flexslider').flexslider({
       animation: "fade",
       start: function(slider){
@@ -118,36 +126,19 @@ $(document).ready(function() {
 
 
 
-    $("#language-switcher").click(function(){
+$("#language-switcher").click(function(){
 
-      if ( $("#language-switcher").attr ("current-language")  == "EN") { 
+  if ( $("#language-switcher").attr ("current-language")  == "EN") { 
         //change to arabic
-        $("li#language-switcher").html("<a href='#'>En</a>");
-        $("#language-switcher").attr("current-language", "AR");
-        $('link[title=bootstrap-rtl]')[0].disabled=false;
-        $(".logo").css('background', 'url(images/logo-ar.jpg)');
-        $(".logo").css('background-repeat', 'no-repeat');
-        $(".content-en").hide();
-        $(".content-ar").show(); 
-        $('ul.nav').removeClass("navbar-right");
-        $('ul.nav').addClass("navbar-left");
+        language_switcher_en();
         
         
         
       }
       else {
+        language_switcher_ar();
 
-        $("li#language-switcher").html("<a href='#'>العربية</a>");
-        $("#language-switcher").attr("current-language", "EN");
-        $('link[title=bootstrap-rtl]')[0].disabled=true;
-         $(".logo").css('background', 'url(images/logo-en.png)');
-        $(".logo").css('background-repeat', 'no-repeat');
-        $(".content-en").show();
-        $(".content-ar").hide(); 
-        $('ul.nav').removeClass("navbar-left");
-        $('ul.nav').addClass("navbar-right");
-        
-       
+
         
       }
     });
@@ -155,6 +146,38 @@ $(document).ready(function() {
 
 
 
+function language_switcher_en(){
+ $("li#language-switcher").html("<a href='#'>En</a>");
+ $("#language-switcher").attr("current-language", "AR");
+ localStorage.setItem("current-language", "EN");
 
-  });
+ $('link[title=bootstrap-rtl]')[0].disabled=false;
+ $(".logo").css('background', 'url(images/logo-ar.jpg)');
+ $(".logo").css('background-repeat', 'no-repeat');
+ $(".content-en").hide();
+ $(".content-ar").show(); 
+ $('ul.nav').removeClass("navbar-right");
+ $('ul.nav').addClass("navbar-left");
+}
+
+function language_switcher_ar() {
+ $("li#language-switcher").html("<a href='#'>العربية</a>");
+ $("#language-switcher").attr("current-language", "EN");
+ $('link[title=bootstrap-rtl]')[0].disabled=true;
+ localStorage.setItem("current-language", "AR");
+ 
+
+ $(".logo").css('background', 'url(images/logo-en.png)');
+ $(".logo").css('background-repeat', 'no-repeat');
+ $(".content-en").show();
+ $(".content-ar").hide(); 
+ $('ul.nav').removeClass("navbar-left");
+ $('ul.nav').addClass("navbar-right");
+
+}
+
+
+
+});
+
 
