@@ -265,7 +265,7 @@
 
 /* Effect 3a */
 .hi-icon-effect-3a .hi-icon {
-	color: #f06060;
+	color: #000;
 }
 
 .no-touch .hi-icon-effect-3a .hi-icon:hover {
@@ -286,7 +286,7 @@
 }
 
 .no-touch .hi-icon-effect-3b .hi-icon:hover {
-	color: #f06060;
+	color: #000;
 }
 
 .hi-icon-effect-3b .hi-icon:after {
