@@ -45,6 +45,7 @@ $(function(){
 $(document).ready(function() {
 	$('link[title=bootstrap-rtl]')[0].disabled=true;
   $('.content-ar').hide();
+
   /*******Nice Scroll******/	  
 		// $("html").niceScroll();  // The document page (body)
 		// $(".scroller").getNiceScroll().resize()
@@ -124,7 +125,8 @@ $(document).ready(function() {
         $("li#language-switcher").html("<a href='#'>En</a>");
         $("#language-switcher").attr("current-language", "AR");
         $('link[title=bootstrap-rtl]')[0].disabled=false;
-        $("logo").css("background-url", "../images/logo-ar.png");
+        $(".logo").css('background', 'url(images/logo-ar.jpg)');
+        $(".logo").css('background-repeat', 'no-repeat');
         $(".content-en").hide();
         $(".content-ar").show(); 
         $('ul.nav').removeClass("navbar-right");
