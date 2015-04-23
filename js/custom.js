@@ -139,7 +139,8 @@ $(document).ready(function() {
         $("li#language-switcher").html("<a href='#'>العربية</a>");
         $("#language-switcher").attr("current-language", "EN");
         $('link[title=bootstrap-rtl]')[0].disabled=true;
-         $("logo").css("background-url", "../images/logo-en.png");
+        $(".logo").css('background', 'url(images/logo-en.jpg)');
+        $(".logo").css('background-repeat', 'no-repeat');
         $(".content-en").show();
         $(".content-ar").hide(); 
         $('ul.nav').removeClass("navbar-left");
