@@ -2137,6 +2137,11 @@ ul.my-list li:before {
 
 .fa-file-archive-o, .fa-file-pdf-o {
 	padding-right: 10px;
+
+}
+
+i.content-en.fa.fa-file-pdf-o {
+	padding-left: 0px;
 }
 
   /* Small Devices, Tablets */
